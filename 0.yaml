@@ -1,0 +1,50 @@
+session_name: '0'
+windows:
+- layout: 22d1,213x54,0,0{106x54,0,0,0,106x54,107,0[106x27,107,0,5,106x26,107,28,10]}
+  options:
+    automatic-rename: 'off'
+  panes:
+  - vim
+  - vim
+  - pane
+  start_directory: /home/gw/code/bdn/bangordailynews.com/wp-content/plugins/bdn-nativo
+  window_name: NATIVO
+- layout: be61,213x54,0,0,4
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: vim
+  start_directory: /home/gw/code/bdn/bangordailynews.com/wp-content/plugins/bdn-plugins/js
+  window_name: AUDIENCE
+- layout: 8d17,213x54,0,0{106x54,0,0,7,106x54,107,0,6}
+  options:
+    automatic-rename: 'off'
+  panes:
+  - pane
+  - vim
+  start_directory: /home/gw/code/bdn/bangordailynews.com/wp-content/plugins/minify
+  window_name: MINIFY
+- layout: be65,213x54,0,0,8
+  options:
+    automatic-rename: 'off'
+  panes:
+  - focus: 'true'
+    shell_command: vim
+  start_directory: /home/gw/code/bdn/bangordailynews.com/wp-content/themes/bdn-mobile
+  window_name: MOBILE
+- layout: be66,213x54,0,0,9
+  options:
+    automatic-rename: 'off'
+  panes:
+  - pane
+  start_directory: /home/gw/code/bdn/bangordailynews.com/wp-content/themes/bdn
+  window_name: DESKTOP
+- focus: 'true'
+  layout: 5f60,213x54,0,0,11
+  options:
+    automatic-rename: 'off'
+  panes:
+  - pane
+  start_directory: /home/gw/code
+  window_name: LOCAL

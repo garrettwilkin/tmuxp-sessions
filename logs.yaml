@@ -1,0 +1,17 @@
+session_name: 'LOGS'
+windows:
+- layout: be5f,213x54,0,0,2
+  options: {}
+  panes:
+  - pane
+  start_directory: /home/gw
+  window_name: LOGS
+- focus: 'true'
+  layout: be5e,213x54,0,0,1
+  options: {}
+  panes:
+  - shell_command:
+    - tail -100f /home/gw/code/bdn/bangordailynews.com/wp-content/debug.log
+    focus: 'true'
+  start_directory: /home/gw
+  window_name: tail
